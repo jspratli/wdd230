@@ -5,48 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Assignment portal with included links to all web assignments for spring sem. 2022 WDD230">
-    <meta name="author" content="Joe Spratling">
-    <title>WDD230 Assignment Portal</title>
-    <link rel="stylesheet" href="wdd230/css/main.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>WDD 230 Assignment Portal</title>
 </head>
-
 <body>
     <header>
-        <!--image and fullname surounded by colored block-->
-        <h1>
-            <!-- WDD 230: Assignment Portal -->
-
-        </h1>
-
+        <img src = "images/jwededit.jpg" alt="personal picture blue suit ">
+        <h1 id="nametitle">Joseph Spratling</h1>
     </header>
-
-    <main>
-        <h2> WDD 230: Assignment Portal</h2>
-        <!-- lessons 2 -11 with links to pages for each -->
-        <nav>
-            <ul>
-                <li>lesson 02: <a href="#">Title</a> </li>
-                <li>lesson 03: <a href="#">Title</a> </li>
-                <li>lesson 04: <a href="#">Title</a> </li>
-                <li>lesson 05: <a href="#">Title</a> </li>
-                <li>lesson 06: <a href="#">Title</a> </li>
-                <li>lesson 07: <a href="#">Title</a> </li>
-                <li>lesson 08: <a href="#">Title</a> </li>
-                <li>lesson 09: <a href="#">Title</a> </li>
-                <li>lesson 10: <a href="#">Title</a> </li>
-                <li>lesson 11: <a href="#">Title</a> </li>
-
-
-            </ul>
-        </nav>
-
-    </main>
-
+        <main>
+            <h2>WDD 230: Assignment Portal</h2>
+         <nav>
+                <ul>
+                    <li>lesson 02: <a href="#">Title</a> </li>
+                    <li>lesson 03: <a href="#">Title</a> </li>
+                    <li>lesson 04: <a href="#">Title</a> </li>
+                    <li>lesson 05: <a href="#">Title</a> </li>
+                    <li>lesson 06: <a href="#">Title</a> </li>
+                    <li>lesson 07: <a href="#">Title</a> </li>
+                    <li>lesson 08: <a href="#">Title</a> </li>
+                    <li>lesson 09: <a href="#">Title</a> </li>
+                    <li>lesson 10: <a href="#">Title</a> </li>
+                    <li>lesson 11: <a href="#">Title</a> </li>
+                </ul>
+         </nav>
+        </main>
+    </body>
+    
     <footer>
         <!--copyright 2022, fullname, State  -->
+        <!-- js current date and time -->
+        <div class="footertext">
+        <p id = "footertop"> &copy; 2022 | Joseph Spratling | Oregon </p>
+        <p class = "footerdate">Last updated: <span id ="currentdate"></span></p>
+        <script src="scripts/footer.js"></script>
+        </div>
     </footer>
-</body>
 
 </html>

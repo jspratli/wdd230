@@ -1,0 +1,36 @@
+
+img{
+    max-width: 20%;
+    max-height: auto;
+    padding: 1rem;
+}
+header{
+    background: rgba(20, 129, 219, 0.6);
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 1px black;
+    display:flex;
+    flex-direction: row;
+}
+body{
+    max-width: 960px;
+    margin: auto;
+}
+footer{
+    background: rgba(20, 129, 219, 0.6);
+}
+
+footer {
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 0px 0px 20px 1px black;
+}
+#footertop{
+    font-size: 1.2rem;
+}
+.footertext{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.footerdate{
+    color: yellow;
+}
