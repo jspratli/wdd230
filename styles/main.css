@@ -9,7 +9,11 @@ header{
     border-radius: 15px;
     box-shadow: 0px 0px 20px 1px black;
     display:flex;
-    flex-direction: row;
+
+    
+}
+nametitle{
+    justify-content: flex-end;
 }
 body{
     max-width: 960px;
@@ -34,3 +38,4 @@ footer {
 .footerdate{
     color: yellow;
 }
+
